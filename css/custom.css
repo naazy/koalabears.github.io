@@ -38,9 +38,12 @@
 .blogtitlebanner h2 {
   margin-bottom: -1rem;
 }
-.blog-content.bloginvis {
+
+/*.blog-content.bloginvis {
   max-height: 3em;
-}
+  display:none;
+}*/
+
 
 .blog-content {
   overflow: hidden;
@@ -48,6 +51,7 @@
   max-height: 80em;
   margin-top: .5em;
   padding: 0 .8rem;
+  display:block;
 }
 
 
